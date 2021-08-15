@@ -8,6 +8,7 @@ public class TestCalc{
     public void testadd(){
         System.out.println(Calc.add(5,7));
     }
+    @Test
     public void testsub(){
         System.out.println(Calc.subtract(5,7));
     }
