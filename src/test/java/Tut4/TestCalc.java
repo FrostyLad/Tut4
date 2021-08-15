@@ -5,7 +5,10 @@ import org.junit.Test;
 public class TestCalc{
 
     @Test
-    public void testcalc(){
+    public void testadd(){
         System.out.println(Calc.add(5,7));
+    }
+    public void testsub(){
+        System.out.println(Calc.subtract(5,7));
     }
 }
